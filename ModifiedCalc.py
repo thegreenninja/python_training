@@ -7,9 +7,9 @@ def subtraction(x, y):
 def multiplication(x, y):
     return x * y
 
-def division(a, b):
-    if b != 0:
-        return a / b
+def division(x, y):
+    if y != 0:
+        return x / y
     else:
         return "Error! Division by zero."
 x = int(input("What is your first number?"))
